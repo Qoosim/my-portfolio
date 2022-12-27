@@ -11791,7 +11791,7 @@ pre .code {
 
 .social-icons {
   list-style-type: none;
-  padding-left: 0;
+  padding-left: 2px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
