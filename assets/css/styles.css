@@ -11660,19 +11660,28 @@ p {
   color: #000;
 }
 
-.see-project {
+.button-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.see-project,
+.go-live {
   background: rgba(255, 255, 255, 0.85);
   color: #f85c70;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   font-style: italic;
   padding: 5px 20px;
   border: none;
   outline: none;
-  border-radius: 20px;
+  border-radius: 2rem;
 }
 
-.see-project:hover {
+.see-project:hover,
+.go-live:hover {
   color: #f85c70;
 }
 
